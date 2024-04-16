@@ -1,0 +1,103 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #b88c8c;
+    color: #ffffff;
+}
+
+header {
+    background-color: #dcc17a;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #741c1c;
+}
+
+.landing {
+    background-image: url('https://travel.home.sndimg.com/content/dam/images/travel/fullset/2014/08/21/1b/seattle-restaurants-with-view-canlis.rend.hgtvcom.1280.720.suffix/1491585038738.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.landing-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.landing h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.landing p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #741c1c;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #522014;
+}
+
+.menu, .about, .contact {
+    background-color: #732727;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.menu h2, .about h2, .contact h2 {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dancing Script', cursive;
+}
